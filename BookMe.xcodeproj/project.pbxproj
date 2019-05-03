@@ -10,13 +10,20 @@
 		278517D782C187E9FE6F9461 /* Pods_BookMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56DAD765CF5E83824DD8A6 /* Pods_BookMeTests.framework */; };
 		4014031B293F315C22AD7A44 /* Pods_BookMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8827560D11263597FAAB41 /* Pods_BookMe.framework */; };
 		C127BD9222792DE800B8D314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127BD9122792DE800B8D314 /* AppDelegate.swift */; };
-		C127BD9422792DE800B8D314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127BD9322792DE800B8D314 /* ViewController.swift */; };
 		C127BD9722792DE800B8D314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C127BD9522792DE800B8D314 /* Main.storyboard */; };
 		C127BD9922792DEA00B8D314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C127BD9822792DEA00B8D314 /* Assets.xcassets */; };
 		C127BD9C22792DEA00B8D314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C127BD9A22792DEA00B8D314 /* LaunchScreen.storyboard */; };
 		C127BDA722792DEB00B8D314 /* BookMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127BDA622792DEB00B8D314 /* BookMeTests.swift */; };
 		C127BDB222792DEB00B8D314 /* BookMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127BDB122792DEB00B8D314 /* BookMeUITests.swift */; };
 		C127BDC02279346E00B8D314 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C127BDBF2279346E00B8D314 /* GoogleService-Info.plist */; };
+		C1D1AFC6227BE1D500AB15B8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFC5227BE1D500AB15B8 /* SignupViewController.swift */; };
+		C1D1AFC8227BE1E100AB15B8 /* AddPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFC7227BE1E100AB15B8 /* AddPaymentViewController.swift */; };
+		C1D1AFCA227BE20000AB15B8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFC9227BE20000AB15B8 /* SettingsViewController.swift */; };
+		C1D1AFCC227BE24900AB15B8 /* AvailableRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFCB227BE24900AB15B8 /* AvailableRoomsViewController.swift */; };
+		C1D1AFD0227BE25E00AB15B8 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFCF227BE25E00AB15B8 /* ConfirmationViewController.swift */; };
+		C1D1AFD2227BE26800AB15B8 /* RoomDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFD1227BE26800AB15B8 /* RoomDetailsViewController.swift */; };
+		C1D1AFD4227BE2E500AB15B8 /* ReservedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFD3227BE2E500AB15B8 /* ReservedTableViewController.swift */; };
+		C1E81F91227BCD5800DD96D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E81F90227BCD5800DD96D8 /* LoginViewController.swift */; };
 		D74ACF04D14F6D55A4831E9F /* Pods_BookMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E835BCED90F5713EEF74BB /* Pods_BookMeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +53,6 @@
 		9D56DAD765CF5E83824DD8A6 /* Pods_BookMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C127BD8E22792DE800B8D314 /* BookMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C127BD9122792DE800B8D314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C127BD9322792DE800B8D314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C127BD9622792DE800B8D314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C127BD9822792DEA00B8D314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C127BD9B22792DEA00B8D314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +64,14 @@
 		C127BDB122792DEB00B8D314 /* BookMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMeUITests.swift; sourceTree = "<group>"; };
 		C127BDB322792DEB00B8D314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C127BDBF2279346E00B8D314 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1D1AFC5227BE1D500AB15B8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		C1D1AFC7227BE1E100AB15B8 /* AddPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentViewController.swift; sourceTree = "<group>"; };
+		C1D1AFC9227BE20000AB15B8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C1D1AFCB227BE24900AB15B8 /* AvailableRoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableRoomsViewController.swift; sourceTree = "<group>"; };
+		C1D1AFCF227BE25E00AB15B8 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
+		C1D1AFD1227BE26800AB15B8 /* RoomDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailsViewController.swift; sourceTree = "<group>"; };
+		C1D1AFD3227BE2E500AB15B8 /* ReservedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservedTableViewController.swift; sourceTree = "<group>"; };
+		C1E81F90227BCD5800DD96D8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C77928D49FA3F80F85C1CFF4 /* Pods-BookMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMeUITests.release.xcconfig"; path = "Target Support Files/Pods-BookMeUITests/Pods-BookMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EAFB4B2D8586744C3760023A /* Pods-BookMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMeTests.release.xcconfig"; path = "Target Support Files/Pods-BookMeTests/Pods-BookMeTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8BE3A672012950397E3AD6B /* Pods-BookMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMe.release.xcconfig"; path = "Target Support Files/Pods-BookMe/Pods-BookMe.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,12 +131,19 @@
 			isa = PBXGroup;
 			children = (
 				C127BD9122792DE800B8D314 /* AppDelegate.swift */,
-				C127BD9322792DE800B8D314 /* ViewController.swift */,
 				C127BD9522792DE800B8D314 /* Main.storyboard */,
+				C1E81F90227BCD5800DD96D8 /* LoginViewController.swift */,
 				C127BD9822792DEA00B8D314 /* Assets.xcassets */,
 				C127BD9A22792DEA00B8D314 /* LaunchScreen.storyboard */,
 				C127BDBF2279346E00B8D314 /* GoogleService-Info.plist */,
 				C127BD9D22792DEA00B8D314 /* Info.plist */,
+				C1D1AFC5227BE1D500AB15B8 /* SignupViewController.swift */,
+				C1D1AFC7227BE1E100AB15B8 /* AddPaymentViewController.swift */,
+				C1D1AFC9227BE20000AB15B8 /* SettingsViewController.swift */,
+				C1D1AFCB227BE24900AB15B8 /* AvailableRoomsViewController.swift */,
+				C1D1AFCF227BE25E00AB15B8 /* ConfirmationViewController.swift */,
+				C1D1AFD1227BE26800AB15B8 /* RoomDetailsViewController.swift */,
+				C1D1AFD3227BE2E500AB15B8 /* ReservedTableViewController.swift */,
 			);
 			path = BookMe;
 			sourceTree = "<group>";
@@ -165,7 +186,6 @@
 				45B2F4520992B5DFB08E08E1 /* Pods-BookMeUITests.debug.xcconfig */,
 				C77928D49FA3F80F85C1CFF4 /* Pods-BookMeUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -402,8 +422,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C127BD9422792DE800B8D314 /* ViewController.swift in Sources */,
+				C1D1AFC6227BE1D500AB15B8 /* SignupViewController.swift in Sources */,
+				C1D1AFCC227BE24900AB15B8 /* AvailableRoomsViewController.swift in Sources */,
+				C1E81F91227BCD5800DD96D8 /* LoginViewController.swift in Sources */,
 				C127BD9222792DE800B8D314 /* AppDelegate.swift in Sources */,
+				C1D1AFCA227BE20000AB15B8 /* SettingsViewController.swift in Sources */,
+				C1D1AFD4227BE2E500AB15B8 /* ReservedTableViewController.swift in Sources */,
+				C1D1AFD2227BE26800AB15B8 /* RoomDetailsViewController.swift in Sources */,
+				C1D1AFC8227BE1E100AB15B8 /* AddPaymentViewController.swift in Sources */,
+				C1D1AFD0227BE25E00AB15B8 /* ConfirmationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
