@@ -32,7 +32,7 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aP8-zn-6zV">
                                 <rect key="frame" x="134" y="477" width="100" height="30"/>
@@ -42,7 +42,6 @@
                                 </state>
                                 <connections>
                                     <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tck-Kc-uNe"/>
-                                    <segue destination="6KC-vc-Ivq" kind="presentation" identifier="loginSegue" id="0Ml-ax-p13"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faF-OY-sSz">
@@ -52,7 +51,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hcJ-mo-KTf" kind="presentation" identifier="signupSegue" animates="NO" id="fzj-9x-C23"/>
+                                    <segue destination="hcJ-mo-KTf" kind="presentation" identifier="" animates="NO" id="fzj-9x-C23"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -62,6 +61,7 @@
                     <connections>
                         <outlet property="emailField" destination="W8I-a0-Bey" id="YpH-oV-VMA"/>
                         <outlet property="passwordField" destination="xR1-8G-8ur" id="jrc-8I-CBj"/>
+                        <segue destination="6KC-vc-Ivq" kind="presentation" identifier="loginSegue" id="TNv-W3-bJX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -636,14 +636,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DVx-Af-4fV">
                                 <rect key="frame" x="62" y="515" width="251" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53C-gA-PyY">
                                 <rect key="frame" x="160" y="599" width="54" height="30"/>
@@ -652,7 +652,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Mwj-dj-586" kind="presentation" identifier="signupSegue" id="osx-L5-YXH"/>
+                                    <action selector="onSignUp:" destination="hcJ-mo-KTf" eventType="touchUpInside" id="N4J-JA-QJ6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqi-Su-Z7A">
@@ -667,6 +667,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AU8-Nd-4Jf"/>
                     </view>
+                    <connections>
+                        <outlet property="confirmPassword" destination="DVx-Af-4fV" id="6mA-P5-Rv4"/>
+                        <outlet property="emailField" destination="oQ3-LW-JMe" id="WTw-y8-ehP"/>
+                        <outlet property="nameField" destination="W5d-CT-wSq" id="v9m-Ly-uk6"/>
+                        <outlet property="passwordField" destination="EQk-wo-e09" id="a2g-34-Aex"/>
+                        <outlet property="phoneNumberField" destination="cu6-Yp-fi1" id="oVs-kK-hx1"/>
+                        <segue destination="Mwj-dj-586" kind="presentation" identifier="signupSegue" id="tRk-N9-p0t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cra-CF-JBH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -810,8 +818,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bgM-xF-gfS"/>
-        <segue reference="q3U-mU-DCo"/>
+        <segue reference="tRk-N9-p0t"/>
+        <segue reference="TNv-W3-bJX"/>
         <segue reference="VL6-HK-j9G"/>
     </inferredMetricsTieBreakers>
 </document>
