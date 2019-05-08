@@ -593,9 +593,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="gm3-Os-UAh" kind="relationship" relationship="viewControllers" id="t2Y-h2-lqe"/>
-                        <segue destination="XVd-PG-tuy" kind="relationship" relationship="viewControllers" id="ako-Kx-QvX"/>
                         <segue destination="UBh-vx-5JE" kind="relationship" relationship="viewControllers" id="w0s-ZK-fiU"/>
+                        <segue destination="XVd-PG-tuy" kind="relationship" relationship="viewControllers" id="ako-Kx-QvX"/>
+                        <segue destination="gm3-Os-UAh" kind="relationship" relationship="viewControllers" id="t2Y-h2-lqe"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VYe-va-eDe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -678,7 +678,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cra-CF-JBH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1191.2" y="1195.5665024630543"/>
+            <point key="canvasLocation" x="-1191" y="1196"/>
         </scene>
         <!--Add Payment View Controller-->
         <scene sceneID="FRg-FL-LHU">
@@ -759,7 +759,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UhL-TG-8OY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-364" y="1195.5665024630543"/>
+            <point key="canvasLocation" x="-268" y="1196"/>
         </scene>
         <!--Booked-->
         <scene sceneID="FNK-Mq-6Xd">
