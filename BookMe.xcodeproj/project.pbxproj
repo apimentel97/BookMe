@@ -24,6 +24,7 @@
 		C1D1AFD4227BE2E500AB15B8 /* ReservedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFD3227BE2E500AB15B8 /* ReservedTableViewController.swift */; };
 		C1E27F7922850BF2003EE3C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1E27F7822850BF1003EE3C3 /* GoogleService-Info.plist */; };
 		C1E81F91227BCD5800DD96D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E81F90227BCD5800DD96D8 /* LoginViewController.swift */; };
+		C8A7FE5022850C3A0016715B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A7FE4F22850C390016715B /* GoogleService-Info.plist */; };
 		D74ACF04D14F6D55A4831E9F /* Pods_BookMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E835BCED90F5713EEF74BB /* Pods_BookMeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,7 @@
 		C1E27F7822850BF1003EE3C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C1E81F90227BCD5800DD96D8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C77928D49FA3F80F85C1CFF4 /* Pods-BookMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMeUITests.release.xcconfig"; path = "Target Support Files/Pods-BookMeUITests/Pods-BookMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8A7FE4F22850C390016715B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EAFB4B2D8586744C3760023A /* Pods-BookMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMeTests.release.xcconfig"; path = "Target Support Files/Pods-BookMeTests/Pods-BookMeTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8BE3A672012950397E3AD6B /* Pods-BookMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMe.release.xcconfig"; path = "Target Support Files/Pods-BookMe/Pods-BookMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +140,7 @@
 				C1E27F7822850BF1003EE3C3 /* GoogleService-Info.plist */,
 				C127BD9D22792DEA00B8D314 /* Info.plist */,
 				C1D1AFC5227BE1D500AB15B8 /* SignupViewController.swift */,
+				C8A7FE4F22850C390016715B /* GoogleService-Info.plist */,
 				C1D1AFC7227BE1E100AB15B8 /* AddPaymentViewController.swift */,
 				C1D1AFC9227BE20000AB15B8 /* SettingsViewController.swift */,
 				C1D1AFCB227BE24900AB15B8 /* AvailableRoomsViewController.swift */,
@@ -357,6 +360,7 @@
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -367,6 +371,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
