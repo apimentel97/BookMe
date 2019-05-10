@@ -8,9 +8,15 @@
 
 import UIKit
 
+
 class AddPaymentViewController: UIViewController {
 
     @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var cardNumberField: UITextField!
+    @IBOutlet weak var monthField: UITextField!
+    @IBOutlet weak var yearField: UITextField!
+    @IBOutlet weak var cvvField: UITextField!
+    @IBOutlet weak var zipCodeField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +24,11 @@ class AddPaymentViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func onFinish(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "finishSegue", sender: self)
+    }
+    
+    
     /*
     // MARK: - Navigation
 

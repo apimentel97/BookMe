@@ -352,7 +352,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="8wh-Dg-ioA"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="Available Rooms" id="Ngp-ay-dHZ"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5cv-dI-0rJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -577,7 +579,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="jm7-zE-Smp"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Settings" id="l9M-5J-tj4"/>
+                    <navigationItem key="navigationItem" title="Settings" id="l9M-5J-tj4">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="8m6-8D-hTv">
+                            <connections>
+                                <action selector="onLogout:" destination="bnp-ij-TWg" id="vAy-MA-Ix1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t1L-OI-RbD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -735,7 +743,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Finish"/>
                                 <connections>
-                                    <segue destination="6KC-vc-Ivq" kind="presentation" identifier="signedupSegue" id="q3U-mU-DCo"/>
+                                    <action selector="onFinish:" destination="Mwj-dj-586" eventType="touchUpInside" id="SIa-eG-jKD"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuT-4B-Fin">
@@ -757,12 +765,18 @@
                         <viewLayoutGuide key="safeArea" id="BKh-FI-h8t"/>
                     </view>
                     <connections>
+                        <outlet property="cardNumberField" destination="Vr2-I4-R3s" id="cRa-bI-5rp"/>
+                        <outlet property="cvvField" destination="nQB-gy-S0R" id="LoF-nJ-tlH"/>
+                        <outlet property="monthField" destination="7r7-OW-qq0" id="mHr-pw-toP"/>
                         <outlet property="nameField" destination="bwv-ZL-iDR" id="cTG-qL-0Wn"/>
+                        <outlet property="yearField" destination="dXN-u0-thk" id="TrL-7Y-EHA"/>
+                        <outlet property="zipCodeField" destination="GhD-xq-SH3" id="xkB-rJ-GVY"/>
+                        <segue destination="6KC-vc-Ivq" kind="presentation" identifier="finishSegue" id="KxJ-BY-qWD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UhL-TG-8OY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-268" y="1196"/>
+            <point key="canvasLocation" x="-230" y="1196"/>
         </scene>
         <!--Booked-->
         <scene sceneID="FNK-Mq-6Xd">
@@ -821,8 +835,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tRk-N9-p0t"/>
-        <segue reference="TNv-W3-bJX"/>
+        <segue reference="bgM-xF-gfS"/>
+        <segue reference="KxJ-BY-qWD"/>
         <segue reference="VL6-HK-j9G"/>
     </inferredMetricsTieBreakers>
 </document>
