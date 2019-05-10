@@ -9,6 +9,7 @@ target 'BookMe' do
   pod 'Firebase/Core'
   pod 'AlamofireImage'
   pod 'FirebaseUI/Auth'
+  pod 'Stripe'
 
   target 'BookMeTests' do
     inherit! :search_paths
