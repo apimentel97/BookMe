@@ -15,7 +15,6 @@
 		C127BD9C22792DEA00B8D314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C127BD9A22792DEA00B8D314 /* LaunchScreen.storyboard */; };
 		C127BDA722792DEB00B8D314 /* BookMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127BDA622792DEB00B8D314 /* BookMeTests.swift */; };
 		C127BDB222792DEB00B8D314 /* BookMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127BDB122792DEB00B8D314 /* BookMeUITests.swift */; };
-		C127BDC02279346E00B8D314 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C127BDBF2279346E00B8D314 /* GoogleService-Info.plist */; };
 		C1D1AFC6227BE1D500AB15B8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFC5227BE1D500AB15B8 /* SignupViewController.swift */; };
 		C1D1AFC8227BE1E100AB15B8 /* AddPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFC7227BE1E100AB15B8 /* AddPaymentViewController.swift */; };
 		C1D1AFCA227BE20000AB15B8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFC9227BE20000AB15B8 /* SettingsViewController.swift */; };
@@ -24,6 +23,7 @@
 		C1D1AFD2227BE26800AB15B8 /* RoomDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFD1227BE26800AB15B8 /* RoomDetailsViewController.swift */; };
 		C1D1AFD4227BE2E500AB15B8 /* ReservedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFD3227BE2E500AB15B8 /* ReservedTableViewController.swift */; };
 		C1E81F91227BCD5800DD96D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E81F90227BCD5800DD96D8 /* LoginViewController.swift */; };
+		C8A7FE5022850C3A0016715B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A7FE4F22850C390016715B /* GoogleService-Info.plist */; };
 		D74ACF04D14F6D55A4831E9F /* Pods_BookMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E835BCED90F5713EEF74BB /* Pods_BookMeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,7 +63,6 @@
 		C127BDAD22792DEB00B8D314 /* BookMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C127BDB122792DEB00B8D314 /* BookMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMeUITests.swift; sourceTree = "<group>"; };
 		C127BDB322792DEB00B8D314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C127BDBF2279346E00B8D314 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C1D1AFC5227BE1D500AB15B8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		C1D1AFC7227BE1E100AB15B8 /* AddPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentViewController.swift; sourceTree = "<group>"; };
 		C1D1AFC9227BE20000AB15B8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +72,7 @@
 		C1D1AFD3227BE2E500AB15B8 /* ReservedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservedTableViewController.swift; sourceTree = "<group>"; };
 		C1E81F90227BCD5800DD96D8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C77928D49FA3F80F85C1CFF4 /* Pods-BookMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMeUITests.release.xcconfig"; path = "Target Support Files/Pods-BookMeUITests/Pods-BookMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8A7FE4F22850C390016715B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EAFB4B2D8586744C3760023A /* Pods-BookMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMeTests.release.xcconfig"; path = "Target Support Files/Pods-BookMeTests/Pods-BookMeTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8BE3A672012950397E3AD6B /* Pods-BookMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMe.release.xcconfig"; path = "Target Support Files/Pods-BookMe/Pods-BookMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,9 +135,9 @@
 				C1E81F90227BCD5800DD96D8 /* LoginViewController.swift */,
 				C127BD9822792DEA00B8D314 /* Assets.xcassets */,
 				C127BD9A22792DEA00B8D314 /* LaunchScreen.storyboard */,
-				C127BDBF2279346E00B8D314 /* GoogleService-Info.plist */,
 				C127BD9D22792DEA00B8D314 /* Info.plist */,
 				C1D1AFC5227BE1D500AB15B8 /* SignupViewController.swift */,
+				C8A7FE4F22850C390016715B /* GoogleService-Info.plist */,
 				C1D1AFC7227BE1E100AB15B8 /* AddPaymentViewController.swift */,
 				C1D1AFC9227BE20000AB15B8 /* SettingsViewController.swift */,
 				C1D1AFCB227BE24900AB15B8 /* AvailableRoomsViewController.swift */,
@@ -299,7 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C127BD9C22792DEA00B8D314 /* LaunchScreen.storyboard in Resources */,
-				C127BDC02279346E00B8D314 /* GoogleService-Info.plist in Resources */,
+				C8A7FE5022850C3A0016715B /* GoogleService-Info.plist in Resources */,
 				C127BD9922792DEA00B8D314 /* Assets.xcassets in Resources */,
 				C127BD9722792DE800B8D314 /* Main.storyboard in Resources */,
 			);
