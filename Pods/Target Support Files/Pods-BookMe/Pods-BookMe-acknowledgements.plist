@@ -1586,9 +1586,7 @@ THE SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>The MIT License
-
-Copyright (c) 2011- Stripe, Inc. (https://stripe.com)
+			<string>Copyright (c) 2017 cruz &lt;cruzdiary@gmail.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -1606,11 +1604,12 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.</string>
+THE SOFTWARE.
+</string>
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>Stripe</string>
+			<string>Pastel</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

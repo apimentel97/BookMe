@@ -11,6 +11,8 @@ import FirebaseAuth
 
 class SignupViewController: UIViewController {
 
+    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var signupButton: UIButton!
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var phoneNumberField: UITextField!
@@ -19,10 +21,16 @@ class SignupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        loginButton.layer.borderColor = UIColor(red: 0/255.0, green: 168/255.0, blue: 232/255.0, alpha: 1).cgColor
+        loginButton.layer.borderWidth = 4
+        loginButton.layer.cornerRadius = 5
+        signupButton.layer.cornerRadius = 5
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func onTap(_ sender: Any) {
+        self.view.endEditing(true);
+    }
     @IBAction func onSignUp(_ sender: Any) {
         if passwordField.text != confirmPassword.text {
             

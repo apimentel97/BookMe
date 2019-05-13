@@ -23,8 +23,10 @@
 		C1D1AFD2227BE26800AB15B8 /* RoomDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFD1227BE26800AB15B8 /* RoomDetailsViewController.swift */; };
 		C1D1AFD4227BE2E500AB15B8 /* ReservedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1AFD3227BE2E500AB15B8 /* ReservedTableViewController.swift */; };
 		C1E27F7922850BF2003EE3C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1E27F7822850BF1003EE3C3 /* GoogleService-Info.plist */; };
+		C1E27F7B22851930003EE3C3 /* ReservedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E27F7A22851930003EE3C3 /* ReservedCell.swift */; };
+		C1E27F7D22851949003EE3C3 /* RoomsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E27F7C22851949003EE3C3 /* RoomsCell.swift */; };
+		C1E27F812288F00C003EE3C3 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E27F802288F00C003EE3C3 /* CardCell.swift */; };
 		C1E81F91227BCD5800DD96D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E81F90227BCD5800DD96D8 /* LoginViewController.swift */; };
-		C8A7FE5022850C3A0016715B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A7FE4F22850C390016715B /* GoogleService-Info.plist */; };
 		D74ACF04D14F6D55A4831E9F /* Pods_BookMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E835BCED90F5713EEF74BB /* Pods_BookMeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +74,9 @@
 		C1D1AFD1227BE26800AB15B8 /* RoomDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailsViewController.swift; sourceTree = "<group>"; };
 		C1D1AFD3227BE2E500AB15B8 /* ReservedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservedTableViewController.swift; sourceTree = "<group>"; };
 		C1E27F7822850BF1003EE3C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1E27F7A22851930003EE3C3 /* ReservedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservedCell.swift; sourceTree = "<group>"; };
+		C1E27F7C22851949003EE3C3 /* RoomsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsCell.swift; sourceTree = "<group>"; };
+		C1E27F802288F00C003EE3C3 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		C1E81F90227BCD5800DD96D8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C77928D49FA3F80F85C1CFF4 /* Pods-BookMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMeUITests.release.xcconfig"; path = "Target Support Files/Pods-BookMeUITests/Pods-BookMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C8A7FE4F22850C390016715B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -134,6 +139,9 @@
 			children = (
 				C127BD9122792DE800B8D314 /* AppDelegate.swift */,
 				C127BD9522792DE800B8D314 /* Main.storyboard */,
+				C1E27F7A22851930003EE3C3 /* ReservedCell.swift */,
+				C1E27F7C22851949003EE3C3 /* RoomsCell.swift */,
+				C1E27F802288F00C003EE3C3 /* CardCell.swift */,
 				C1E81F90227BCD5800DD96D8 /* LoginViewController.swift */,
 				C127BD9822792DEA00B8D314 /* Assets.xcassets */,
 				C127BD9A22792DEA00B8D314 /* LaunchScreen.storyboard */,
@@ -360,7 +368,7 @@
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/Pastel/Pastel.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -371,7 +379,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pastel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,8 +467,11 @@
 				C1D1AFCA227BE20000AB15B8 /* SettingsViewController.swift in Sources */,
 				C1D1AFD4227BE2E500AB15B8 /* ReservedTableViewController.swift in Sources */,
 				C1D1AFD2227BE26800AB15B8 /* RoomDetailsViewController.swift in Sources */,
+				C1E27F7B22851930003EE3C3 /* ReservedCell.swift in Sources */,
+				C1E27F7D22851949003EE3C3 /* RoomsCell.swift in Sources */,
 				C1D1AFC8227BE1E100AB15B8 /* AddPaymentViewController.swift in Sources */,
 				C1D1AFD0227BE25E00AB15B8 /* ConfirmationViewController.swift in Sources */,
+				C1E27F812288F00C003EE3C3 /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

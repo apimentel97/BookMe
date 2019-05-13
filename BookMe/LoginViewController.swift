@@ -11,6 +11,8 @@ import FirebaseAuth
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var createButton: UIButton!
+    @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
@@ -20,11 +22,21 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func onTap(_ sender: Any) {
+        self.view.endEditing(true);
+    }
     override func viewDidAppear(_ animated: Bool){
         super.viewDidAppear(animated)
         if Auth.auth().currentUser != nil {
             self.performSegue(withIdentifier: "loginSegue", sender: nil)
         }
+        
+        createButton.layer.borderColor = UIColor(red: 255/255.0, green: 104/255.0, blue: 63/255.0, alpha: 1).cgColor
+        createButton.layer.borderWidth = 4
+        createButton.layer.cornerRadius = 5
+        loginButton.layer.cornerRadius = 5
+        
+        
     }
 
     @IBAction func onSignIn(_ sender: Any) {
