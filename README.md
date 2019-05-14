@@ -7,9 +7,23 @@ Group Project - README Template
 
 The following **required** functionality is completed:
 
+- [x] User can see three different tabs
+- [x] User can click on available room and see a detailed view
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/VH8DtXje1M.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## User Stories
+
+The following **required** functionality is completed:
+
 - [x] User can log in 
 - [x] User can sign up
-- [] User stays logged in
+- [x] User stays logged in
+- [x] User can log out
 
 ## Video Walkthrough
 
